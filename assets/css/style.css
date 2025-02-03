@@ -72,3 +72,49 @@ footer {
     background-color: #ffcccc;
     color: #333;
 }
+
+.rsvp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6666;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.rsvp-button:hover {
+    background-color: #cc3333;
+}
+
+header {
+    background-color: #ffcccc;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#countdown {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff6666;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffcccc;
+    color: #333;
+}
