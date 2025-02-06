@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     function updateCountdown() {
-        const weddingDate = new Date(Date.UTC(2025, 7, 18, 11, 0, 0));
+        const weddingDate = new Date(Date.UTC(2025, 7, 18, 14, 0, 0));
         const now = new Date();
         let timeLeft = weddingDate.getTime() - now.getTime();
 
