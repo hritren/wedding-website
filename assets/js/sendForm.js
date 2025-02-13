@@ -14,17 +14,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 stay: guestStay
             });
         });
-        
+
         const formData = {
             name: document.getElementById("name").value,
             requests: document.getElementById("requests").value,
             guests: guests
         };
 
-        emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
-            to_email: "hritren.gaming@gmail.com",
+        emailjs.send("service_y8w5x76", "template_dshcgc2", {
+            to_email: "hristoandnicolewedding@gmail.com",
+            from_name: formData.name,
             message: JSON.stringify(formData, null, 2)
-        }, "YOUR_PUBLIC_KEY")
+        }, "Yswbky3jIvqWxt0Rb")
         .then(response => {
             alert("RSVP Submitted Successfully!");
             console.log("Success:", response);
