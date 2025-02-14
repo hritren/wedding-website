@@ -11,74 +11,162 @@
             emailjs.init("Yswbky3jIvqWxt0Rb");
         })();
     </script>
+    <script defer src="assets/js/scroll.js"></script>
     <script defer src="assets/js/sendForm.js"></script>
     <script defer src="assets/js/table.js"></script>
 </head>
 <body>
-    <div>
-        <h1>Христо и Никол</h1>
+
+    <div class="nav-container">
+        <div class="nav-button">☰</div>
+
+        <div class="nav-menu">
+            <a href="#home">Начало</a>
+            <a href="#invitation">Запази датата</a>
+            <a href="#location">Локация</a>
+            <a href="#program">Програма</a>
+            <a href="#gallery">Галерия</a>
+            <a href="#details">Детайли за събитието</a>
+            <a href="#form">Анкета за гостите</a>
+        </div>
+    </div>
+
+
+    <div id="home" class="top-image-container">
+        <img src="uploads/frontImage.jpg" alt="Background Image">
+    
+        <div class="name-overlay">
+            <img src="uploads/names.png" alt="Our Names">
+        </div>
     </div>
     
-    <div class="gallery">
-        <div class="gallery-content">
-            <img src="uploads/backToBack.jpg" height="512">
-            <img src="uploads/backToBack.jpg" height="512">
-            <img src="uploads/backToBack.jpg" height="512">
-        </div>
+
+    <div class="down-button">
+        <a href="#invitation"></a>
     </div>
-        
-    <div class="date">
+
+    <div id = "invitation" class="date">
         <div class="date-content">
-            <h2>Запази датата</h2>
-            <p>Заедно с нашите семейства ви каним на нашата сватбена церемония и тържество това лято.</p>
-            <h2><strong>16.08.2025г.</strong></h2>
-            <p>До церемонията остават:</p>
-            <strong><h2 id = "timer">Зареждане...</h2></strong>
+            <h1>Запази датата</h1>
+            <img class="date-image" src = "uploads/tr3.png">
+            <p>Скъпи гости,
+            </br>
+                С огромна радост и вълнение Ви каним да бъдете част от най-щастливия ден в живота ни!
+                Очакваме Ви на 16.08.2025г., за да отпразнуваме заедно любовта, усмивките и новото начало!
+            </br>
+            </br>
+                С нетърпение,
+                Христо и Никол
+            </p>
         </div>
     </div>
 
-    <div class="location">
-        <div class="location-top">
-            <div class="location-content">
-                <h2>Локация</h2>
-                <p>Сватбата ще се проведе във винарна "Мидалидаре Естейт" на няколко различни локации</p>
+    <div id = "location" class="location">
+        <h1 class="location-title">Локация</h1>
+    
+        <div class="location-row">
+            <div class="location-text">
+                <p>За нашия прекрасен ден избрахме Midalidare Estate, разположено в живописното село Могилово, в област Стара Загора. Това е място, съчетаващо в себе си история, традиции и природна красота.
+                </br>
+                </br>
+                    На територията на имението се намират две ключови локации, които ще направят сватбата ни незабравима. Освен това централно място заема Midalidare Hotel & Spa, където ще настаним нашите гости, за да могат да се насладят на уюта и комфорта на това прекрасно кътче.</p>
             </div>
-            <img src="uploads/hotel.jpg" alt="Bride and Groom" width="400" height="300">
+            <img src="uploads/hotel.jpg">
         </div>
-        <div class="location-bottom">
-            <img src="uploads/smallWinery.jpg" alt="Bride and Groom" width="400" height="300">
-            <img src="uploads/location.jpg" alt="Bride and Groom" width="400" height="300">
+    
+        <div class="location-row alternate">
+            <img src="uploads/smallWinery.jpg">
+            <div class="location-text">
+                <p>Малката винарна е мястото, където ще се проведе нашата гражданска церемония. Разположена е в сърцето на лозовите масиви и предлага уникална природна гледка, която ще остави спомен за цял живот. </p>
+            </div>
+        </div>
+    
+        <div class="location-row">
+            <div class="location-text">
+                <p>Голямата винарна е впечатляваща с величествения си интериор, който съчетава класическа елегантност и съвременен стил. Тази локация ще бъде домакин на нашата вечеря, където ще се насладим на кулинарни изкушения, приготвени с внимание и грижа. Гостите ще се потопят в уютната и вълнуваща обстановка, докато се наслаждават на изискани ястия и вина, произведени именно тук.</p>
+            </div>
+            <img src="uploads/location.jpg">
         </div>
     </div>
 
-    <div class="program">
-        <h2>Програма за деня</h2>
-        <ul>
-            <li><strong>14:00:</strong> Начало на настаняване Хотел Мидалидаре</li>
-            <li><strong>17:00:</strong> Граждански брак Малка винарна</li>
-            <li><strong>18:00:</strong> Welcome drink Хотел Мидалидаре</li>
-            <li><strong>19:30:</strong> Вечеря Голяма винарна</li>
-        </ul>
+    <div id = "program" class="program">
+        <img src="uploads/program.png">
     </div>
 
-    <div class="details-team">
+    <div class = "timer-box">
+        <p>До церемонията остават:</p>
+        <strong><h1 id = "timer">Зареждане...</h1></strong>
+    </div>
+
+    <div id = "gallery"     class="gallery">
+        <h1>Галерия</h1>
+        <div class="gallery-content">
+            <img src="uploads/gal1.jpg">
+            <img src="uploads/gal2.jpg">
+            <img src="uploads/gal3.jpg">
+        </div>
+    </div>
+
+    <div id = "details" class="details">
+        <h1>Детайли за събитието</h1>
+    
+        <div class="details-container">
+            <div class="details-bottom-row">
+                <div class="detail-item">
+                    <h2>Екип</h2>
+                    <ul>
+                        <li><a href="https://georgestratiev.com/">Фотограф - Георги Стратиев</a></li>
+                        <li><a href="https://plamenbijev.com/">Виедограф - Пламен Бижев</a></li>
+                        <li><a href="https://djivcho.com/">DJ и водещ - Иво Стоянов</a></li>
+                    </ul>
+                    <div class="underline"></div>
+                </div>
+                <div class="detail-item">
+                    <h2>Цветя</h2>
+                    <p>Информация за украсата и цветята.</p>
+                    <div class="underline"></div>
+                </div>
+                <div class="detail-item">
+                    <h2>Време</h2>
+                    <p>Очакваните метеорологични условия за деня.</p>
+                    <div class="underline"></div>
+                </div>
+            </div>
+    
+            <div class="details-bottom-row">
+                <div class="detail-item">
+                    <h2>Подаръци</h2>
+                    <p>Идеи за подаръци или предпочитания.</p>
+                    <div class="underline"></div>
+                </div>
+                <div class="detail-item">
+                    <h2>Настаняване</h2>
+                    <p>Информация за настаняване на гостите.</p>
+                    <div class="underline"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- <div class="details-team">
         <div class="details">
-            <h2>Детайли</h2>
+            <h1>Детайли</h1>
             <p>Детайли за деня...</p>
         </div>
 
         <div class="team">
-            <h2>Нашият екип</h2>
+            <h1>Нашият екип</h1>
             <ul>
                 <li><a href="https://georgestratiev.com/">Фотограф - Георги Стратиев</a></li>
                 <li><a href="https://plamenbijev.com/">Виедограф - Пламен Бижев</a></li>
                 <li><a href="https://djivcho.com/">DJ и водещ - Иво Стоянов</a></li>
             </ul>
         </div>
-    </div>
+    </div> -->
 
-    <div class="form-container">
-        <h2>Форма за RSVP</h2>
+    <div id = "form" class="form-container">
+        <h2>Анкета за гостите</h2>
         <form id="wedding-form">
             <label for="name">Вашето име и фамилия:</label>
             <input type="text" id="name" name="name" required>
@@ -98,7 +186,7 @@
             <label for="requests">Специални изисквания, алергии(друга информация, която считате за необходима):</label>
             <textarea id="requests" name="requests" rows="3"></textarea>
             
-            <button type="submit">Изпратете RSVP</button>
+            <button type="submit">Изпратете анкетата</button>
         </form>
     </div>
 
