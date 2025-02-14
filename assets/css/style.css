@@ -232,7 +232,7 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 100px;
-    width: 60%;
+    width: 40%;
 }
 
 .detail-item {
