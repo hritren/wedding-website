@@ -14,9 +14,10 @@ function addGuestRow() {
     selectMeal.name = "guest_meals[]";
     selectMeal.required = true;
     selectMeal.innerHTML = `
+        <option value="standard">Стандартно меню с месо</option>
+        <option value="pescetarian">Меню за пескетарианци</option>
         <option value="vegetarian">Вегетарианско меню</option>
-        <option value="non-vegetarian">Свинско</option>
-        <option value="fish">Риба</option>
+        <option value="vegan">Веген меню</option>
         <option value="child">Детско меню</option>
     `;
     cell2.appendChild(selectMeal);
