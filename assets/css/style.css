@@ -309,3 +309,42 @@ td input {
     display: block;
     margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+    .header {
+        padding: 10px;
+    }
+
+    .form-container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .location-row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .location-text, .location-row img {
+        width: 90%;
+    }
+
+    .gallery-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+
+    input, select, textarea {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 12px;
+    }
+}
