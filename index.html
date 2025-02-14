@@ -17,7 +17,22 @@
 </head>
 <body>
 
-    <div class="top-image-container">
+    <div class="nav-container">
+        <div class="nav-button">☰</div>
+
+        <div class="nav-menu">
+            <a href="#home">Начало</a>
+            <a href="#invitation">Запази датата</a>
+            <a href="#location">Локация</a>
+            <a href="#program">Програма</a>
+            <a href="#gallery">Галерия</a>
+            <a href="#details">Детайли за събитието</a>
+            <a href="#form">Анкета за гостите</a>
+        </div>
+    </div>
+
+
+    <div id = "home" class="top-image-container">
         <img src="uploads/frontImage.jpg">
     </div>
 
@@ -41,7 +56,7 @@
         </div>
     </div>
 
-    <div class="location">
+    <div id = "location" class="location">
         <h1 class="location-title">Локация</h1>
     
         <div class="location-row">
@@ -69,7 +84,7 @@
         </div>
     </div>
 
-    <div class="program">
+    <div id = "program" class="program">
         <img src="uploads/program.png">
     </div>
 
@@ -78,7 +93,7 @@
         <strong><h1 id = "timer">Зареждане...</h1></strong>
     </div>
 
-    <div class="gallery">
+    <div id = "gallery"     class="gallery">
         <h1>Галерия</h1>
         <div class="gallery-content">
             <img src="uploads/gal1.jpg">
@@ -87,7 +102,49 @@
         </div>
     </div>
 
-    <div class="details-team">
+    <div id = "details" class="details">
+        <h1>Детайли за събитието</h1>
+    
+        <div class="details-container">
+            <div class="details-bottom-row">
+                <div class="detail-item">
+                    <h2>Екип</h2>
+                    <ul>
+                        <li><a href="https://georgestratiev.com/">Фотограф - Георги Стратиев</a></li>
+                        <li><a href="https://plamenbijev.com/">Виедограф - Пламен Бижев</a></li>
+                        <li><a href="https://djivcho.com/">DJ и водещ - Иво Стоянов</a></li>
+                    </ul>
+                    <div class="underline"></div>
+                </div>
+                <div class="detail-item">
+                    <h2>Цветя</h2>
+                    <p>Информация за украсата и цветята.</p>
+                    <div class="underline"></div>
+                </div>
+                <div class="detail-item">
+                    <h2>Време</h2>
+                    <p>Очакваните метеорологични условия за деня.</p>
+                    <div class="underline"></div>
+                </div>
+            </div>
+    
+            <div class="details-bottom-row">
+                <div class="detail-item">
+                    <h2>Подаръци</h2>
+                    <p>Идеи за подаръци или предпочитания.</p>
+                    <div class="underline"></div>
+                </div>
+                <div class="detail-item">
+                    <h2>Настаняване</h2>
+                    <p>Информация за настаняване на гостите.</p>
+                    <div class="underline"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- <div class="details-team">
         <div class="details">
             <h1>Детайли</h1>
             <p>Детайли за деня...</p>
@@ -101,10 +158,10 @@
                 <li><a href="https://djivcho.com/">DJ и водещ - Иво Стоянов</a></li>
             </ul>
         </div>
-    </div>
+    </div> -->
 
-    <div class="form-container">
-        <h2>Форма за RSVP</h2>
+    <div id = "form" class="form-container">
+        <h2>Анкета за гостите</h2>
         <form id="wedding-form">
             <label for="name">Вашето име и фамилия:</label>
             <input type="text" id="name" name="name" required>
@@ -124,7 +181,7 @@
             <label for="requests">Специални изисквания, алергии(друга информация, която считате за необходима):</label>
             <textarea id="requests" name="requests" rows="3"></textarea>
             
-            <button type="submit">Изпратете RSVP</button>
+            <button type="submit">Изпратете анкетата</button>
         </form>
     </div>
 

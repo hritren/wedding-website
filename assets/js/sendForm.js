@@ -27,11 +27,11 @@ document.addEventListener("DOMContentLoaded", function () {
             message: JSON.stringify(formData, null, 2)
         }, "Yswbky3jIvqWxt0Rb")
         .then(response => {
-            alert("RSVP Submitted Successfully!");
+            alert("Анкетата беше успешно изпратена");
             console.log("Success:", response);
         })
         .catch(error => {
-            alert("Error submitting RSVP. Please try again.");
+            alert("Изникна проблем с изпращането на анкетата. Моля опитайте пак");
             console.error("Error:", error);
         });
     });
