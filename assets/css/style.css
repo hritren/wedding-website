@@ -312,7 +312,6 @@ th, td {
         width: 85%;
     }
 
-
     .date p {
         font-size: small;
     }
@@ -370,6 +369,14 @@ th, td {
 
     .nav-button {
         padding: 5px 15px;
+    }
+
+    .timer-box p {
+        font-size: small;
+    }
+
+    .details p {
+        font-size: small;
     }
 
     .details-row {
