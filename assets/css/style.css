@@ -1,12 +1,9 @@
 body {
-    font-family: Yu Gothic UI Light;
+    font-family: Courier New;
     text-align: center;
     background: #f5e9c2;
     color: #704401;
     margin: 0;
-}
-h1 {
-    font-family: Segoe Script;
 }
 
 .nav-container {
@@ -112,7 +109,6 @@ h1 {
     margin: 40px auto;
     padding: 20px;
     background: white;
-    font-family: Yu Gothic UI Light;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 50%;
@@ -145,7 +141,6 @@ h1 {
     margin: 40px auto;
     padding: 20px;
     background: white;
-    font-family: Yu Gothic UI Light, sans-serif;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 50%;
