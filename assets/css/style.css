@@ -1,5 +1,5 @@
 body {
-    font-family: Arial;
+    font-family: Yu Gothic UI Light;
     text-align: center;
     background: #f5e9c2;
     color: #704401;
@@ -125,7 +125,6 @@ h1 {
     font-size: 18px;
 }
 
-
 .date-image {
     display: block; 
     margin: 10px auto;
@@ -226,11 +225,14 @@ h1 {
     display: flex;
     justify-content: center;
     width: 40%;
+    gap: 100px;
 }
 
 .detail-item {
     background: transparent;
+    padding: 15px;
     text-align: center;
+    min-width: 200px;
 }
 
 .detail-item h2 {
@@ -241,18 +243,23 @@ h1 {
 
 .underline {
     width: 50%;
+    height: 2px;
     background: #ff6600;
-    margin: auto;
+    margin: 10px auto;
 }
 
 .detail-item ul {
     list-style-type: none;
     padding: 0;
+    align-items: center;
+    text-align: center;
 }
 .detail-item li {
     margin: 10px 0;
     display: flex;
+    justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .form-container {
     margin: 40px auto;
@@ -305,6 +312,7 @@ th, td {
         width: 85%;
     }
 
+
     .date p {
         font-size: small;
     }
@@ -330,6 +338,14 @@ th, td {
         width: 90%;
     }   
 
+    .location p {
+        font-size: small;
+    }
+
+    .location h1 {
+        font-size: large;
+    }
+
     .program img{
         width: 100%;
     }
@@ -350,5 +366,25 @@ th, td {
     button {
         font-size: 18px;
         padding: 12px;
+    }
+
+    .nav-button {
+        padding: 5px 15px;
+    }
+
+    .details-row {
+        width: 80%;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .detail-item {
+        min-width: 80%;
+        text-align: center;
+    }
+
+    .details-container {
+        gap: 40px;
+        align-items: center;
     }
 }
