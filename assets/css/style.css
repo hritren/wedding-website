@@ -1,9 +1,13 @@
 body {
-    font-family: Garmond;
+    font-family: Yu Gothic UI Light;
     text-align: center;
     background: #f5e9c2;
     color: #704401;
     margin: 0;
+}
+
+h1 {
+    font-family: Segoe Script;
 }
 
 .nav-container {
