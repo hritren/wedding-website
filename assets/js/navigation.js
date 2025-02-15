@@ -3,21 +3,20 @@ document.addEventListener("DOMContentLoaded", function () {
     const navMenu = document.querySelector(".nav-menu");
 
     navButton.addEventListener("click", function (event) {
-        event.stopPropagation(); // Prevents click from immediately closing the menu
+        event.stopPropagation();
         if (navMenu.classList.contains("active")) {
             navMenu.classList.remove("active");
-            navMenu.style.display = "none"; // Forcefully hide the menu
+            navMenu.style.display = "none";
         } else {
             navMenu.classList.add("active");
-            navMenu.style.display = "flex"; // Show the menu when active
+            navMenu.style.display = "flex";
         }
     });
 
-    // Close the menu when clicking outside
     document.addEventListener("click", function (event) {
         if (!navMenu.contains(event.target) && !navButton.contains(event.target)) {
             navMenu.classList.remove("active");
-            navMenu.style.display = "none"; // Ensure menu is hidden when clicking outside
+            navMenu.style.display = "none";
         }
     });
 });
