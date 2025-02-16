@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
             guests.push({
                 name: guestName,
                 meal: guestMeal,
-                stay: guestStay
+                stay: guestStay === "yes"
             });
         });
 
